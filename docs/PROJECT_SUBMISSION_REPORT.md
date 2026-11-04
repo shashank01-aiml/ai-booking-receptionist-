@@ -77,7 +77,7 @@ flowchart TD
 ### Task 1: LiveKit Setup & Worker Registration
 
 - **Title of the task:** LiveKit Cloud Worker Registration and Session Handshake
-- **Brief description:** Demonstrates the initialization and startup sequence of the Python voice agent worker (`restaurant-receptionist`) on LiveKit Agents SDK 1.8. It confirms the successful preloading of local inference models, WebRTC native binaries, and HTTP connection pools before registering with the LiveKit Cloud SFU (`wss://telephone-h0716sae.livekit.cloud`) and accepting incoming room sessions.
+- **Brief description:** Demonstrates the initialization and startup sequence of the Python voice agent worker (`restaurant-receptionist`) on LiveKit Agents SDK 1.8. It confirms the successful preloading of local inference models, WebRTC native binaries, and HTTP connection pools before registering with the LiveKit Cloud SFU (`wss://<your-project>.livekit.cloud`) and accepting incoming room sessions.
 - **Tools/technologies used:** Python 3.12, LiveKit Agents SDK 1.8.2, LiveKit RTC, Silero VAD, Deepgram STT, Cartesia TTS, Groq LLM plugin.
 - **Outcome achieved:** The agent worker (`AW_szXoudZBchsC`) successfully registered with LiveKit Cloud in 2.41s, joined the active WebRTC room, preloaded all voice pipelines, and dispatched the initial conversational greeting.
 
